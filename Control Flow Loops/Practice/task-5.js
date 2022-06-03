@@ -1,5 +1,6 @@
-while(i < 3) {
-    i++;
-}
+let i = 0;
 
-    console.log(i);
+while(i < 3) {
+    console.log("number " + i + "!");
+    i++
+}
