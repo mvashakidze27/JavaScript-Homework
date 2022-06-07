@@ -5,7 +5,7 @@ genericFunction(sayHello);
 
 // result:
 'hello';
--------------------------------
+
 function addOne(){
     const a = 2;
     a++;
@@ -14,4 +14,5 @@ function addOne(){
 genericFunction(addOne);
 
 // result:
-Assignment to constant variable
+'Assignment to constant variable'
+
