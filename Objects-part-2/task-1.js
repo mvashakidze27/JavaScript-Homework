@@ -1,6 +1,6 @@
 Object.defineProperty(Object.prototype, "mergeDeepRight", {
   value: function (obj) {
-    let arr = Object.get0wnPropertyNames(obj);
+    let arr = Object.getOwnPropertyNames(obj);
     for (let el of arr) {
       if (
         typeof obj[el] === "object" &&
